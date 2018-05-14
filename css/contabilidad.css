@@ -227,41 +227,15 @@
     font-weight: 100;
     padding: 0px 40px; }
 
-#text-iso p {
-  padding: 0px 30px;
-  text-align: justify;
-  font-weight: 100; }
-#text-iso .img-politica img {
-  margin: 0 auto;
-  display: block;
-  width: 70%; }
-#text-iso .img-iso img {
-  display: block;
-  margin: 0 auto;
-  width: 200px; }
-#text-iso .cont-politica h2 {
-  color: #7f8185; }
-#text-iso h2 span {
-  color: #ff6633; }
-#text-iso h1 {
-  color: #7f8185; }
-#text-iso h1 span {
-  color: #ff6633; }
-
-s
 #logos-seg {
   margin: 50px 0px; }
-  s
   #logos-seg img {
     display: block;
     margin: 0 auto; }
-  s
   #logos-seg h1 {
     color: #7f8185; }
-    s
     #logos-seg h1 span {
       color: #ff6633; }
-  s
   #logos-seg p span {
     color: #ff6633;
     font-weight: bold;
@@ -269,7 +243,6 @@ s
     text-align: center;
     display: block;
     margin: 0 auto; }
-  s
   #logos-seg p {
     text-align: justify;
     padding: 0px 30px; }

@@ -12,6 +12,10 @@
 .dropdown-menu {
   background-color: #F2F2F2; }
 
+.dropdown-item:hover {
+  background-color: #ff6633;
+  color: #fff; }
+
 .carousel-caption {
   position: absolute;
   left: 50%;

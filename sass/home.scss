@@ -20,9 +20,13 @@
 .dropdown-menu{
     background-color:$colorSect;
 }
+ .dropdown-item:hover{
+    background-color: $colorNaranja;
+    color: #fff;
+}
 //fin de submenu
 
-.carousel-caption {
+ .carousel-caption {
     position: absolute;
     left: 50%;
     right: 0;

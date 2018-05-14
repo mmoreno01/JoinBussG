@@ -1,0 +1,75 @@
+@import"variables";
+
+
+//politicas de seguridad
+#text-iso{
+    p{
+        padding: 0px 30px;
+        text-align: justify;
+        font-weight: 100;
+    }
+    .img-politica img{
+        margin: 0 auto;
+        display: block;
+        width: 70%;
+    }
+    .img-iso img{
+        display: block;
+    margin: 0 auto;
+    width: 200px;
+    }
+    .cont-politica h2{
+        color: $colorGrisTitlel;
+    }
+    h2 span{
+        color: $colorNaranja;
+    }
+    h1{
+        color: $colorGrisTitlel;
+        font-size: 30px;
+        font-weight: 300;
+    }
+    h1 span{
+        color: $colorNaranja;
+      font-weight: bold;
+    }
+    h2{
+        color: $colorGrisTitlel;
+        font-size: 30px;
+        font-weight: 300;
+    }
+    h2  span{
+        color: $colorNaranja;
+        font-weight: bold;
+    }
+}
+
+#logos-seg{
+
+    margin-bottom: 30px;
+    h1{
+        color: $colorGrisTitlel;
+        font-size: 30px;
+        font-weight: 300;
+        span{
+            color: $colorNaranja;
+            font-weight: bold;
+        }
+    }
+
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+
+    p{
+        text-align: justify;
+        
+    }
+
+   h3{
+       text-align: center;
+       color: $colorNaranja;
+       font-size: 20px;
+   }
+}
