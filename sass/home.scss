@@ -8,6 +8,19 @@
     
     }
 }
+//sub menu
+.btn-menu {
+    background-color: #343a40;
+    color: rgba(255, 255, 255, 0.5);
+}
+.dropdown .btn:focus {
+     box-shadow: none;
+}
+
+.dropdown-menu{
+    background-color:$colorSect;
+}
+//fin de submenu
 
 .carousel-caption {
     position: absolute;
