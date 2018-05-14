@@ -1,0 +1,175 @@
+@import"variables";
+//carusel
+#carouselExampleSlidesOnly{
+    h1{
+        color: $colorNaranja;
+    }
+    button{
+        border: 2px solid #fff;
+        color:#fff;
+        background-color: transparent;
+    }
+    a{
+        color:#fff;
+        text-decoration: none;
+    }
+    button:hover{
+        background-color:$colorNaranja;
+        border: $colorNaranja;
+    }
+    .carousel-caption{
+        bottom: 500px;
+    }
+    .carousel-item {
+        height: 100vh;
+    }
+   
+}
+
+
+#headSocial{
+    p{
+        color: #fff;
+        float: right;
+        padding:10px 0px;
+        box-sizing:content-box;
+    }
+    a{
+        color: #fff;
+        float: right;
+        padding:10px;
+        margin-right: 5px;
+        box-sizing:content-box;
+    }
+    a:hover{
+        color: #BDBDBD;
+    }
+}
+
+//seccion nosotros
+#sect-nosotros{
+    h2{
+        color:$colorNaranja;
+        text-transform: uppercase;
+       
+    }
+    p{
+        text-align: justify;
+        line-height: 30px;
+        font-weight: 100;
+        margin: 20px;
+        margin-bottom: 60px;
+    }
+    .line-down{
+        border-bottom: 2px solid $colorNaranja; 
+        width: 50px;
+        margin: 40px 30px;
+    }
+   
+}
+
+//seccion mision
+#mision{
+    background-color: #F2F2F2;
+    padding: 10px;
+   
+    .content-mision{
+        position: relative;
+    }
+    h3{
+        color: $colorNaranja;
+        border-bottom: 2px solid $colorNaranja;
+        padding: 10px;
+        margin: 20px 0px; 
+    }
+    p{
+        margin: 40px 0px;
+        line-height: 30px;
+        text-align: justify;
+        font-weight: 100;
+    }
+    .logo-trans{
+        position: absolute;
+        width: 50%;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+
+//vision
+#vision{
+    padding: 10px;
+    h3{
+        color:$colorNaranja;
+        border-bottom: 2px solid $colorNaranja;
+        padding: 10px;
+        margin: 20px 0px;
+    }
+    p{
+        margin: 40px 0px;
+        line-height: 30px;
+        text-align: justify;
+        font-weight: 100;
+    }
+}
+//footer
+footer{
+    background-color:$colorFooter;
+    color: #fff;
+}
+
+#datos-footer{
+   
+    .row{
+        padding: 20px 10px;
+        ul{
+            list-style:none;
+            text-transform: uppercase;
+           
+        }
+        a{
+            color: #fff;
+            text-decoration: none;
+            line-height: 30px;
+        }
+        a:hover{
+            color:#A4A4A4;
+        }
+    }
+    h3 span{
+        color: $colorNaranja;
+    }
+
+    img{
+        width: 100%;
+        border-radius: 40px;
+    }
+ 
+}
+
+//Redes sociales footer
+#redes-sociales{
+    background-color:rgba($color: #000000, $alpha: 0.28);
+    padding: 0px;
+    padding: 20px 10px;
+    .logo-redes{
+     
+      margin: 0px 20px;
+      color: #8c8b8b;
+      
+        }
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
+        a:hover{
+            color: #8c8b8b;
+        }
+        .logo-redes:hover{
+            color: #fff;
+        }
+        .cont-icons{
+            text-align: center;
+        }
+}

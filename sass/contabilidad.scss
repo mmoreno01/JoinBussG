@@ -1,0 +1,657 @@
+@import"variables";
+
+#img-pricipal{
+    width: 100%;
+    height: 500px;
+
+    img{
+        width: 100%;
+    }
+    
+}
+
+//efecto imagen prfincipal
+.content-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.content-1 {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    background: rgba(246, 76, 0, 0.4);
+    top: 0;
+    transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    margin-left: -750px;
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+}
+.content-2 {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    background: rgba(246, 76, 0, 0.4);
+    top: 0;
+    transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    margin-left: -800px;
+    transition: all 500ms;
+    -webkit-transition: all 500ms;
+}
+
+.content-3 {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    background: rgba(246, 76, 0, 0.4);
+    top: 0;
+    transform: rotate(-30deg);
+    -webkit-transform: rotate(30deg);
+    margin-left: -800px;
+    margin-top: -500px;
+    transition: all 900ms;
+    -webkit-transition: all 900ms;
+    box-shadow: 0px 1px 20px -5px black;
+}
+.content-4 {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    background: rgba(246, 76, 0, 0.4);
+    top: 0;
+    transform: rotate(-30deg);
+    -webkit-transform: rotate(30deg);
+    margin-left: -850px;
+    margin-top: -500px;
+    transition: all 700ms;
+    -webkit-transition: all 700ms;
+}
+
+.content-img:hover .content-1{
+    width: 100%;
+    transition: all 900ms;
+    -webkit-transition: all 900ms;
+}
+
+.content-img:hover .content-2{
+    width: 100%;
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+}
+
+.content-img:hover .content-3{
+    width: 100%;
+    transition: all 500ms;
+    -webkit-transition: all 500ms;
+}
+
+.content-img:hover .content-4{
+     width: 100%; 
+     transition: all 700ms; 
+     -webkit-transition: all 700ms; 
+}
+
+.content-txt {
+    position: absolute;
+    top: 0;
+    width: 800px;
+    padding: 10px;
+    z-index: 10;
+    color: white;
+    text-align: justify;
+    margin-left: 45px;
+    margin-top: 100px;
+}
+.content-txt h2{
+    font-size: 30px;
+    opacity: 0;
+    transform: scale(0.2);
+    -webkit-transform: scale(0.2);
+    transition: all 300ms;
+    -webkit-transition:all 300ms;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.content-img:hover h2{
+    opacity: 1;
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+}
+
+
+#content-txt{
+
+li{
+    font-weight: 100;
+    list-style: none;
+}
+}
+//fin de efecto del contenido principal
+
+//seccion de servicios contables
+
+#serv-contables{
+    
+    p{
+        text-align: center;
+        margin: 20px 0px;
+        font-weight: 100;
+    }
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+//sevicios capitall humano
+#serv-iconos{
+    img{
+        width:  100px;
+        display: block;
+        margin: 0 auto;
+        opacity: .5;
+   }
+   img:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+   cursor: pointer;
+}
+
+p{
+    text-align: center;
+    color: #ff6633;
+    font-weight: bold;
+    margin: 20px 0px;
+    opacity: .7;
+}
+
+li{
+    font-size: 15px;
+    font-weight: 100;
+    list-style: none;
+  
+    
+}
+}
+
+//fin de servicios capital humano
+
+
+
+#content-txt{
+    h1{
+        color: $colorNaranja;
+        font-size: 30px;
+        font-weight: 300;
+    }
+     span{
+        color: $colorGrisTitlel;
+        
+    }
+    .text-left{
+        padding: 0px 40px;
+    }
+    
+    p{
+        text-align: justify;
+        font-weight: 100;
+    }
+    .img-right{
+        img{
+            width: 70%;
+            margin: 0 auto;
+            display: block;
+        }
+      
+    }
+    
+}
+
+//fin de servicios contables
+
+
+//inicio de banner parallax
+#banner{
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+
+//entidades servicios sofom
+#entidades{
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+h2{
+    color: #ff6633;
+    text-align: center;
+    margin: 20px 0px;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+p{
+    text-align: justify;
+    font-weight: 100;
+    padding: 0px 20px;
+}
+}
+
+//seccion como funciona1
+#comoFunciona{
+    margin: 50px 0px;
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+
+    h2{
+        color: $colorNaranja;
+        text-align: center;
+    }
+    span{
+        color: $colorNaranja;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    p{
+        text-align: center;
+        margin: 20px 0px;
+        font-weight: 100;
+    }
+}
+
+//como funciona sofom
+
+#serv-comoFunciona{
+    margin: 50px 0px;
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+
+    h2{
+        color: $colorNaranja;
+        text-align: center;
+    }
+    span{
+        color: $colorNaranja;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    p{
+        text-align: center;
+        margin: 20px 0px;
+        font-weight: 100;
+    }
+}
+
+#serv-caulRequisito{
+    margin: 50px 0px;
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+    h2{
+        color: $colorNaranja;
+        text-align: center;
+    }
+    span{
+        color: $colorNaranja;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    p{
+        text-align: center;
+        margin: 20px 0px;
+        font-weight: 100;
+        padding: 0px 40px;
+    }
+}
+
+//politicas de seguridad
+#text-iso{
+    p{
+        padding: 0px 30px;
+        text-align: justify;
+        font-weight: 100;
+    }
+    .img-politica img{
+        margin: 0 auto;
+        display: block;
+        width: 70%;
+    }
+    .img-iso img{
+        display: block;
+    margin: 0 auto;
+    width: 200px;
+    }
+    .cont-politica h2{
+        color: $colorGrisTitlel;
+    }
+    h2 span{
+        color: $colorNaranja;
+    }
+    h1{
+        color: $colorGrisTitlel;
+    }
+    h1 span{
+        color: $colorNaranja;
+    }
+}
+s
+//seccion logos
+#logos-seg{
+
+    margin: 50px 0px;
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+    h1{
+        color: $colorGrisTitlel;
+        span{
+            color: $colorNaranja;
+        }
+    }
+
+
+p span {
+    color: $colorNaranja;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+
+p{
+    text-align: justify;
+    padding: 0px 30px;}
+
+}
+
+//terminos
+
+#text-termino{
+    margin: 50px 0px;
+    h1{
+        color: $colorGrisTitlel;
+        span{
+            color: $colorNaranja;
+        }
+    }
+    
+    p{
+        text-align: justify;
+        line-height: 30px;
+        padding: 0px 50px;
+        span{
+            font-weight: bold;
+        }
+    } 
+}
+
+
+//  servicio glosario
+#text-glosario{
+    margin: 50px 0px;
+    h1{
+        color: $colorNaranja;
+        span{
+            color: $colorGrisTitlel;
+
+        }
+
+    }
+
+    p{
+        font-weight:100;
+        padding: 0px 50px;
+        span{
+            color: $colorNaranja;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+}
+
+//estilo de promociones
+
+#promo-text{
+    background-color: $colorSect;
+    padding: 80px 0px;
+    h1{
+        color: $colorGrisTitlel;
+        font-weight: 300;
+
+        span{
+           color: $colorNaranja;
+        }
+    }
+    p{
+        padding: 0px 80px;
+        font-weight: 100;
+        text-align: justify;
+        span{
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+    span{
+        color: $colorNaranja;
+       
+    }
+}
+
+#content-salud{
+    h2{
+        font-weight: 300;
+        color: $colorGrisTitlel;
+
+        span{
+            color: $colorNaranja;
+           
+        }
+    }
+    img{
+        width: 150px;
+        display: block;
+        margin: 0 auto;
+        opacity: .5;
+    }
+    img:hover{
+        opacity: 1;
+        transform: scale(1.1);
+        transition: all ease-in 0.3s;
+        cursor: pointer;
+
+    }
+
+    .popup h2{
+        color: $colorNaranja;
+    }
+    ul{
+        list-style: none;
+    }
+}
+
+#content-viajes{
+    background-color:$colorSect;
+    padding: 80px 0px;  
+    h2{
+        color: $colorGrisTitlel;
+        font-weight: 300;
+
+        span{
+            color: $colorNaranja;
+        }
+    }
+    img{
+        width: 150px;
+        display: block;
+        margin: 0 auto;
+        opacity: .5;
+    }
+    img:hover{
+        opacity: 1;
+        transform: scale(1.1);
+        transition: all ease-in 0.3s;
+        cursor: pointer;
+    }
+    .popup h2{
+        color: $colorNaranja;
+    }
+    ul{
+        list-style: none;
+    }
+}
+
+#content-educacion{
+    margin-bottom: 30px;
+    h2{
+        color: $colorGrisTitlel;
+        font-weight: 300;
+
+        span{
+            color: $colorNaranja;
+        }
+    }
+    img{
+        width: 150px;
+        display: block;
+        margin: 0 auto;
+        opacity: .5;
+    }
+    img:hover{
+        opacity: 1;
+        transform: scale(1.1);
+        transition: all ease-in 0.3s;
+        cursor: pointer;
+    }
+    .popup h2{
+        color: $colorNaranja;
+    }
+    ul{
+        list-style: none;
+    }
+}
+
+
+
+//media queries
+
+@media screen and (max-width: 576px) {
+    #banner .cont-conectate span {
+        
+        font-size: 15px;
+        
+    }
+    #banner .cont-conectate p {
+       
+        font-size: 12px;
+        
+    }
+    .content-txt {
+       
+        width: 100px;
+        margin-left: 35px;
+        margin-top: 170px;
+    }
+    .popup {
+        margin: 200px auto !important;
+    }
+
+    .popup h2 {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .popup ul {
+       
+        -webkit-padding-start: 0px;
+    }
+
+    #text-termino p {
+        padding: 0px 30px;
+    }
+    #text-termino h1 {
+        font-size: 30px;
+    }
+    #text-iso h1 {
+        font-size: 30px;
+    }
+    #text-iso h2 span {
+       font-size: 30px;
+    }
+    #logos-seg h1 {
+        font-size: 30px;
+    }
+    #text-glosario h1 span {
+        font-size: 30px;
+    }
+
+    #text-glosario h1 {
+        font-size: 30px;
+    }
+
+    #promo-text{
+
+        h1{
+            font-size: 30px;
+        }
+        p{
+            padding: 0px 20px; 
+        }
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+}
+
+
+// pop up servicios
+
+.modal-content{
+    border: 1px solid  rgba(255, 102, 51, 0.8);
+ 
+}
+
+.modal-header{
+     background: rgba(255, 102, 51, 0.8);
+    h5{
+        color: #fff;
+    }
+    span{
+        color: #fff;
+    }
+}
+.modal-body {
+    ul{
+        padding: 20px;
+    }
+    li{
+        list-style: none;
+        font-weight: 100;
+        text-align: justify;
+        line-height: 30px;
+    }
+}
+
+//  fin de pop up servicios

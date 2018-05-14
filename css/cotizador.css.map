@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAII,eAAE;EACE,KAAK,ECHC,OAAO;ADMjB,gCAAmB;EACf,MAAM,EAAE,iBAAuB;EAC/B,UAAU,EAAE,mBAAyB;AAGzC,0BAAa;EACV,KAAK,EAAE,KAAK",
+"sources": ["../sass/cotizador.scss","../sass/_variables.scss"],
+"names": [],
+"file": "cotizador.css"
+}

@@ -1,0 +1,19 @@
+@import"variables";
+
+form{
+    h1{
+        color:$colorNaranja ;
+    }
+    button{
+       
+        background-color: transparent;
+        border:2px solid $colorNaranja !important;
+        color:$colorNaranja ;
+    }
+
+    button:hover{
+        background-color: $colorNaranja;
+        color: #fff;
+    }
+
+}

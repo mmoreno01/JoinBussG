@@ -1,0 +1,11 @@
+form h1 {
+  color: #ff6633; }
+form button {
+  background-color: transparent;
+  border: 2px solid #ff6633 !important;
+  color: #ff6633; }
+form button:hover {
+  background-color: #ff6633;
+  color: #fff; }
+
+/*# sourceMappingURL=contacto.css.map */

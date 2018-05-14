@@ -1,0 +1,9 @@
+#form-cotiza h1 {
+  color: #ff6633; }
+#form-cotiza .form-control:focus {
+  border: 1px solid #ff6633;
+  box-shadow: 0 0 0 0.2px #ff6633; }
+#form-cotiza .form-control {
+  width: 300px; }
+
+/*# sourceMappingURL=cotizador.css.map */

@@ -1,0 +1,17 @@
+@import"variables";
+
+#form-cotiza{
+
+    h1{
+        color: $colorNaranja;
+    }
+
+    .form-control:focus{
+        border: 1px solid $colorNaranja;
+        box-shadow: 0 0 0 0.2px $colorNaranja;
+    }
+
+    .form-control{
+       width: 300px;
+    }
+}
