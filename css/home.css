@@ -375,6 +375,17 @@
     color: #7f8185; }
 
 #content-link {
+  width: 300px;
+  display: block;
+  margin: 0 auto; }
+
+#content-face {
+  width: 300px;
+  display: block;
+  margin: 0 auto; }
+
+#content-twt {
+  width: 300px;
   display: block;
   margin: 0 auto; }
 
@@ -458,24 +469,9 @@
 
   #cont_serv .title-principal {
     margin: 20% 0% 40% 0%; } }
-@media (max-width: 996px) {
-  .li-profile-container {
-    width: 220px !important; }
-
-  #content-face {
-    width: 100px;
-    display: block;
-    margin: 0 auto; }
-
+@media screen and (min-width: 992px) {
   #content-twt {
-    width: 100px;
-    display: block;
-    margin: 0 auto; }
-
-  #content-link {
-    width: 100px;
-    display: block;
-    margin: 0 auto; } }
+    float: right; } }
 @media (max-width: 768px) {
   #datos-footer img {
     width: 50px;
