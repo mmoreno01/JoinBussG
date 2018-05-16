@@ -61,6 +61,10 @@
   -webkit-animation-delay: 2.2s;
   box-sizing: border-box; }
 
+#eventos h1 {
+  color: #ff6633;
+  font-size: 30px; }
+
 #ContService h1 {
   color: #ff6633;
   font-size: 25px; }
