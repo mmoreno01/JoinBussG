@@ -1,9 +1,53 @@
 @import"variables";
 
+//contenedor de imagen principal
+#content-img{
+    img{
+        width: 100%;
+    }
+}
+
+#tittle-cotiza{
+    h1{
+        font-size: 30px;
+        font-weight: 300;
+        color: $colorGrisTitlel;
+    }
+    span{
+        font-weight: bold;
+        color: $colorNaranja;
+    }
+}
+
+//contenedor de texto principal
+#content-textAyuda{
+    .cont-ayuda{
+        padding: 0px 30px;
+    h3{
+        margin: 20px 0px;
+    }
+    p{
+        padding: 30px 0px;
+    }
+    }
+    p{
+        text-align: justify;
+    }
+  h3{
+        color: $colorNaranja;
+        text-align: center;
+    }
+}
+
 #form-cotiza{
 
     h1{
         color: $colorNaranja;
+        font-size: 30px;
+        font-weight: 300;
+        text-align: center;
+        margin: 30px 0px;
+
     }
 
     .form-control:focus{
@@ -13,5 +57,11 @@
 
     .form-control{
        width: 300px;
+       margin: 0 auto;
+        }
+
+    .content-date{
+        background-color:#dedede;
+        padding: 30px;
     }
 }
