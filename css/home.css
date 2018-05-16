@@ -469,9 +469,9 @@
 
   #cont_serv .title-principal {
     margin: 20% 0% 40% 0%; } }
-@media screen and (min-width: 992px) {
-  #content-twt {
-    float: right; } }
+@media screen and (max-width: 992px) {
+  #content-face {
+    padding-bottom: 20px; } }
 @media (max-width: 768px) {
   #datos-footer img {
     width: 50px;

@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/slider-slick.css">
     <title>Join Bussines Global Groupl</title>
 </head>
-<body>
+<body ng-app="">
 
 <!--Menu-->
 
@@ -609,6 +609,10 @@
 </section>
 
 
+<div ng-app="">
+        <p>Name : <input type="text" ng-model="name"></p>
+        <h1>Hello {{name}}</h1>
+</div>
 <!--Seccion de noticias/prensa-->
 <!--<section id="cards">
         <div class="titulo-seccion my-5"><h1 class="text-center"> <span> Noticias</span></h1></div>
@@ -707,20 +711,29 @@
        
     <div class="row">
         <div class="col-md-6  content-form">
-                <form action="">
+                <form action="post" name="forma">
+               
                         <div class="form-group">
-                           
-                            <input class="form-control" type="text" placeholder="Nombre">
+                            <input class="form-control" type="text" name="name" ng-model="name" placeholder="Nombre" required>
+                            <div ng-show="forma.name.$dirty">
+                                <p class="help-block text-danger" ng-show="forma.name.$error.required">El campo nombre es obligatorio</p>
+                            </div>
                         </div>
                         <div class="form-group">
-                
-                            <input type="email" class="form-control" placeholder="Correo">
+                            <input type="email" class="form-control" name="mail" ng-model="mail" placeholder="Correo" required>
+                            <div ng-show="forma.mail.$dirty && forma.mail.$invalid"> 
+                                    <p class="help-block text-danger" ng-show="forma.mail.$error.required">El campo email es obligatorio</p> 
+                                    <p class="help-block text-danger">email invalido</p> 
+                            </div>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="telefono">
+                            <input type="text" class="form-control"  name="phone" ng-model="phone"  placeholder="telefono" required>
+                            <div ng-show="forma.phone.$dirty">
+                                <p class="help-block text-danger" ng-show="forma.phone.$error.required">El campo telefono es obligatorio</p>
+                            </div>
                         </div>
                         <div class="form-group">
-                                <select class="form-control" id="exampleFormControlSelect1">
+                                <select class="form-control"  name="service" id="exampleFormControlSelect1" ng-model="service">
                                   <option>CONTABILIDAD</option>
                                   <option>FISCAL</option>
                                   <option>PAYROLL SERVICE</option>
@@ -731,13 +744,15 @@
                                   <option value="">MAQUILA DE NOMINA</option>
                                   <option value="">AUDITORIA</option>
                                 </select>
+                                <div ng-show="forma.service.$dirty">
+                                    <p class="help-block text-danger" ng-show="forma.service.$error.required">El campo servicios es obligatorio</p>
+                                </div>
                               </div>
                         <div class="form-group">
-                          
-                            <textarea  class="form-control" name="" id="" cols="30" rows="3" placeholder="Escribe un mensaje aquí"></textarea>
+                            <textarea  class="form-control" name="mensaje" ng-model="mensaje" id="" cols="30" rows="3" placeholder="Escribe un mensaje aquí"></textarea>
                         </div>
                         <div class="form-group">
-                            <button class="btn">Enviar</button>
+                            <button class="btn" ng-disabled="forma.$invalid">Enviar</button>
                         </div>
                         </form>
         </div>
@@ -825,4 +840,5 @@
   <script src="js/parallax.js"></script>
   <script src="js/slick.js"></script>
   <script src="js/slider-slick.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.6.6/angular-sanitize.js"></script>
   </html>
