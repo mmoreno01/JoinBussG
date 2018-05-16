@@ -374,6 +374,10 @@
     font-weight: 300;
     color: #7f8185; }
 
+#content-link {
+  display: block;
+  margin: 0 auto; }
+
 #contacto .form-control:focus {
   border: 1px solid #ff6633;
   box-shadow: 0 0 0 0.2px #ff6633; }
@@ -445,6 +449,33 @@
   max-height: 250px;
   overflow: hidden; }
 
+@media screen and (max-width: 1800px) {
+  #cont_serv .title-principal {
+    margin: 30% 0% 40% 0%; } }
+@media screen and (min-width: 1800px) {
+  #cont_serv .contenedor-img .img-principal {
+    width: 100%; }
+
+  #cont_serv .title-principal {
+    margin: 20% 0% 40% 0%; } }
+@media (max-width: 996px) {
+  .li-profile-container {
+    width: 220px !important; }
+
+  #content-face {
+    width: 100px;
+    display: block;
+    margin: 0 auto; }
+
+  #content-twt {
+    width: 100px;
+    display: block;
+    margin: 0 auto; }
+
+  #content-link {
+    width: 100px;
+    display: block;
+    margin: 0 auto; } }
 @media (max-width: 768px) {
   #datos-footer img {
     width: 50px;
@@ -484,14 +515,5 @@
 
   #redes-sociales .logo-redes {
     margin: 0px 10px; } }
-@media screen and (max-width: 1800px) {
-  #cont_serv .title-principal {
-    margin: 30% 0% 40% 0%; } }
-@media screen and (min-width: 1800px) {
-  #cont_serv .contenedor-img .img-principal {
-    width: 100%; }
-
-  #cont_serv .title-principal {
-    margin: 20% 0% 40% 0%; } }
 
 /*# sourceMappingURL=home.css.map */
