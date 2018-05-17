@@ -14,27 +14,86 @@
   #content-textAyuda .cont-ayuda h3 {
     margin: 20px 0px; }
   #content-textAyuda .cont-ayuda p {
-    padding: 30px 0px; }
+    padding: 20px 200px; }
 #content-textAyuda p {
   text-align: justify; }
 #content-textAyuda h3 {
   color: #ff6633;
   text-align: center; }
 
-#form-cotiza h1 {
-  color: #ff6633;
-  font-size: 30px;
-  font-weight: 300;
-  text-align: center;
-  margin: 30px 0px; }
-#form-cotiza .form-control:focus {
-  border: 1px solid #ff6633;
-  box-shadow: 0 0 0 0.2px #ff6633; }
-#form-cotiza .form-control {
-  width: 300px;
-  margin: 0 auto; }
-#form-cotiza .content-date {
-  background-color: #dedede;
-  padding: 30px; }
+#form-cotiza {
+  margin-bottom: 50px; }
+  #form-cotiza h1 {
+    color: #ff6633;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0px; }
+  #form-cotiza .form-control:focus {
+    border: 1px solid #ff6633;
+    box-shadow: 0 0 0 0.2px #ff6633; }
+  #form-cotiza .form-control {
+    width: 300px;
+    margin: 0 auto; }
+  #form-cotiza .content-date {
+    background-color: #dedede;
+    padding: 30px; }
+  #form-cotiza .content-date input {
+    font-size: 12px; }
+  #form-cotiza .content-date select {
+    font-size: 12px; }
+  #form-cotiza .content-dateEmpresa {
+    background-color: #dedede;
+    padding: 30px; }
+    #form-cotiza .content-dateEmpresa input {
+      font-size: 12px; }
+    #form-cotiza .content-dateEmpresa select {
+      font-size: 12px; }
+    #form-cotiza .content-dateEmpresa textarea {
+      font-size: 12px; }
+    #form-cotiza .content-dateEmpresa h3 {
+      font-size: 20px;
+      color: #ff6633;
+      text-align: center; }
+    #form-cotiza .content-dateEmpresa p {
+      font-size: 15px;
+      font-weight: 100;
+      text-align: justify;
+      padding: 0px 100px; }
+    #form-cotiza .content-dateEmpresa .btn-cotizador {
+      background-color: #ff6633;
+      color: #fff;
+      display: block;
+      margin: 0 auto; }
+
+@media screen and (max-width: 992px) {
+  #form-cotiza .content-dateEmpresa p {
+    padding: 0px 0px; } }
+@media screen and (max-width: 768px) {
+  #content-textAyuda .cont-ayuda p {
+    padding: 20px 70px; }
+
+  #form-cotiza .content-dateEmpresa p {
+    padding: 0px 0px; }
+
+  #form-cotiza .form-control {
+    width: 200px; } }
+@media screen and (max-width: 576px) {
+  #tittle-cotiza h1 {
+    font-size: 25px; }
+
+  #content-textAyuda .cont-ayuda h3 {
+    font-size: 20px; }
+
+  #content-textAyuda .cont-ayuda p {
+    padding: 0px; }
+
+  #form-cotiza .content-dateEmpresa p {
+    padding: 0px; }
+
+  #form-cotiza .form-control {
+    width: 200px; }
+
+  #form-cotiza h1 {
+    font-size: 20px; } }
 
 /*# sourceMappingURL=cotizador.css.map */

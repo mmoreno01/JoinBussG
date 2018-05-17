@@ -27,7 +27,7 @@
         margin: 20px 0px;
     }
     p{
-        padding: 30px 0px;
+        padding: 20px 200px;
     }
     }
     p{
@@ -40,11 +40,11 @@
 }
 
 #form-cotiza{
+    margin-bottom: 50px;
 
     h1{
         color: $colorNaranja;
         font-size: 30px;
-        font-weight: 300;
         text-align: center;
         margin: 30px 0px;
 
@@ -63,5 +63,101 @@
     .content-date{
         background-color:#dedede;
         padding: 30px;
+    }
+    .content-date{
+        input{
+            font-size: 12px;
+           
+        }
+
+        select{
+            font-size: 12px;
+           
+        }
+    }
+
+    .content-dateEmpresa{
+        background-color:#dedede;
+        padding: 30px;
+
+        input{
+            font-size: 12px;
+            
+        }
+
+        select{
+            font-size: 12px;
+           
+        }
+        textarea{
+            font-size: 12px;
+        }
+
+        h3{
+            font-size: 20px;
+            color: $colorNaranja;
+            text-align: center;
+        }
+        p{
+            font-size: 15px;
+            font-weight: 100;
+            text-align: justify;
+            padding: 0px 100px;
+        }
+
+        .btn-cotizador{
+            background-color: $colorNaranja;
+            color: #fff;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+
+}
+
+@media screen and (max-width:1200px) {}
+
+@media screen and (max-width:992px) {
+    #form-cotiza .content-dateEmpresa p {
+        padding: 0px 0px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #content-textAyuda .cont-ayuda p {
+        padding: 20px 70px;
+    }
+
+    #form-cotiza .content-dateEmpresa p {
+        padding: 0px 0px;
+    }
+    #form-cotiza .form-control {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    #tittle-cotiza h1 {
+        font-size: 25px;
+    }
+
+    #content-textAyuda .cont-ayuda h3 {
+        font-size: 20px;
+    }
+    #content-textAyuda .cont-ayuda p {
+        padding: 0px;
+    }
+
+    #form-cotiza .content-dateEmpresa p {
+        padding: 0px;
+    }
+
+    #form-cotiza .form-control {
+        width: 200px;
+    }
+    #form-cotiza h1 {
+        font-size: 20px;
     }
 }
