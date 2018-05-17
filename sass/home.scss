@@ -8,6 +8,22 @@
     
     }
 }
+
+.flotante {
+    display: scroll;
+    position: fixed;
+    color: white;
+    bottom: 150px;
+    left: 50px;
+    width: 250px;
+    height: 50px;
+    background-color: #ff6633;
+    z-index: 1;
+    border: none;
+    font-family: 'Questrial', sans-serif;
+    -webkit-animation-name: anim1;
+    -webkit-animation-duration: 2s;
+}
 //sub menu
 .btn-menu {
     background-color: #343a40;
