@@ -31,6 +31,9 @@
   background-color: #ff6633;
   color: #fff; }
 
+.dropdown a {
+  text-decoration: none; }
+
 .carousel-caption {
   position: absolute;
   left: 50%;
@@ -337,6 +340,22 @@
   padding: 10px; }
 #content-prensa img:hover {
   background-color: rgba(0, 0, 0, 0.28); }
+
+#noticias .content-noticias .content-img-noticia {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: 5px solid #356294;
+  height: 230px;
+  margin: auto;
+  overflow: hidden; }
+
+#noticias .content-noticias .titutlo-noticia {
+  color: #ff6633;
+  margin-top: 15px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  min-height: 55px; }
 
 #cards .card {
   box-sizing: content-box;

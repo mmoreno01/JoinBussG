@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/slider-slick.css">
     <title>Join Bussines Global Groupl</title>
 </head>
-<body ng-app="">
+<body ng-app="app">
 
 <!--Menu-->
 
@@ -32,7 +32,7 @@
     <div class="collapse navbar-collapse  " id="navbarTogglerDemo02">
         <div class="navbar-nav mr-auto ml-auto text-center ">
                 <a translate="menuServicios" class="nav-item nav-link mr-4 active" href="index.html">Inicio</a>
-                <a translate="menuServicios"class="nav-item nav-link mr-4" href="#QuienSomos">JBGG</a>
+                <a translate="menuServicios"class="nav-item nav-link mr-4" href="nosotros.html">JBGG</a>
                 <a class="nav-item nav-link mr-4" href="#cont_serv">Servicios</a>
                 <div class="dropdown">
                         <button class="btn btn-menu dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -501,16 +501,16 @@
 </section>-->
 <!--fin deSeccion de servicios iconos-->
 
-<section id="cards" >
+<!--<section id="cards" >
     <div class="titulo-seccion my-5"><h1 class="text-center"> Noticias <span>Destacadas</span></h1></div>
 
 <div class="container-fluid py-2 animated fadeIn">
-    <div class="row">
+    <div class="row">-->
         <!--cards carousel slider-->
-        <div class="carousel slide w-100 mb-5 " data-ride="carousel" data-interval="10000" id="postsCarousel">
-            <div class="carousel-inner pb-2">
+        <!--<div class="carousel slide w-100 mb-5 " data-ride="carousel" data-interval="10000" id="postsCarousel">
+            <div class="carousel-inner pb-2">-->
                 <!-- three (3) sildes per carousel item -->
-               <div class="carousel-item active">
+        <!--       <div class="carousel-item active">
                     <div class="row">
                         <div class="col-md-4 col-sm-12">
                             <div class="card card-default h-100">
@@ -589,14 +589,32 @@
                 <a class="prev btn btn-next mr-2" data-target="#postsCarousel" data-slide="prev" href="" title="Newer"><i class="fa fa-chevron-left ion-ios-arrow-left"></i></a>
                 <a class="next btn btn-next mr-2" data-target="#postsCarousel" data-slide="next" href="" title="Older"><i class="fa fa-chevron-right ion-ios-arrow-right"></i></a>
             </div>
-        </div>
+        </div>-->
         <!--/multi cards carousel slider-->
 
-    </div>
+  <!--  </div>
 </div>
-</section>
+</section>-->
 
+ <!-- Section  Noticias-->
+ <section id="noticias" class="content-section text-center" ng-controller="entradas">
+        <div class="titulo-seccion my-5"><h1 class="text-center"> Noticias <span>Destacadas</span></h1></div>
 
+    <div class="container-fluid">
+      <div class="row content-noticias">
+        <div class="col-md-6 col-lg-3 noticia" ng-repeat="x in postConsulta  | limitTo: 4">
+          <div class="content-img-noticia" style="background-image: url({{x._embedded['wp:featuredmedia'][0].source_url}});">
+              <!-- <img class="img-responsive" ng-src="{{x._embedded['wp:featuredmedia'][0].source_url}}"> -->
+          </div>
+              <a href="{{x.link}}"><p class="titutlo-noticia">{{x.title.rendered}}</p></a>
+              <hr>
+              <p class="texto-noticia" ng-bind-html="x.excerpt.rendered | limitTo: 200"></p>
+              <a href="{{x.link}}" target="_blank"><label class="seeMore">VER MÁS</label></a>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- fin Section  Noticias-->
 
          
     <!--Seccion de iconos de alianzas-->
@@ -853,7 +871,10 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="js/angular.js"></script>
 <script src="js/angular.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.6.6/angular-sanitize.js"></script>
+<script src="js/ngMask.min.js"></script>
+<!--cotroller angular-->
+<script src="js/controllers/app.js"></script>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];

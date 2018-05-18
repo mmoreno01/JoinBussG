@@ -1,0 +1,29 @@
+#noticias-nacionales {
+  margin-bottom: 50px; }
+  #noticias-nacionales h1 {
+    color: #ff6633;
+    font-size: 30px; }
+    #noticias-nacionales h1 span {
+      color: red; }
+  #noticias-nacionales .card {
+    margin: 20px 0px; }
+  #noticias-nacionales .body-card h5 {
+    color: #ff6633;
+    margin: 20px 0px;
+    padding: 0px 20px; }
+  #noticias-nacionales .body-card p {
+    padding: 0px 20px;
+    text-align: justify;
+    font-weight: 100; }
+  #noticias-nacionales .body-card span {
+    color: #ff6633;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    padding: 10px 0px; }
+  #noticias-nacionales .cont-text {
+    box-sizing: content-box;
+    background-color: teal;
+    height: 200px; }
+
+/*# sourceMappingURL=nacionales.css.map */

@@ -62,13 +62,10 @@
     #form-cotiza .content-dateEmpresa .btn-cotizador {
       background-color: #ff6633;
       color: #fff;
-      opacity: .8;
       display: block;
       margin: 0 auto; }
     #form-cotiza .content-dateEmpresa button:focus {
       box-shadow: 0 0 0 0.2px #fff; }
-    #form-cotiza .content-dateEmpresa button:hover {
-      opacity: 1; }
 
 .content-gnrl {
   width: 100%;

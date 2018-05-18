@@ -31,6 +31,7 @@
 }
 .dropdown .btn:focus {
      box-shadow: none;
+     
 }
 
 .dropdown-menu{
@@ -39,6 +40,9 @@
  .dropdown-item:hover{
     background-color: $colorNaranja;
     color: #fff;
+}
+.dropdown a{
+    text-decoration: none;
 }
 //fin de submenu
 
@@ -497,6 +501,26 @@
    img:hover{
     background-color: rgba($color: #000000, $alpha: 0.28);
    }
+}
+
+//seccion de Noticias
+
+#noticias .content-noticias .content-img-noticia {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 5px solid #356294;
+    height: 230px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#noticias .content-noticias .titutlo-noticia {
+    color: $colorNaranja;
+    margin-top: 15px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    min-height: 55px;
 }
 
 #cards{
