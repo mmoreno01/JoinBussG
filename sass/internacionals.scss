@@ -1,0 +1,43 @@
+@import "variables";
+
+#noticias-nacionales{
+    margin-bottom: 50px;
+    h1{
+        color: $colorNaranja;
+        font-size: 30px;
+        span{
+            color: red;
+        }
+    }
+
+    .card{
+        margin: 20px 0px;
+    }
+    .body-card{
+
+        h5{
+            color:$colorNaranja;;
+            margin: 20px 0px;
+            padding: 0px 20px;
+        }
+        p{
+            padding: 0px 20px;
+            text-align: justify;
+            font-weight: 100;
+        }
+        span{
+            color: $colorNaranja;
+            text-align: center;
+            display: block;
+            font-size: 20px;
+            padding: 10px 0px;
+        }
+        
+    }
+    .cont-text{
+        box-sizing: content-box;
+        background-color: teal;
+       height: 200px;
+    }
+}
+
