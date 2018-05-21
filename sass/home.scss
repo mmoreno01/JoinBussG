@@ -505,11 +505,11 @@
 
 //seccion de Noticias
 
-#noticias .content-noticias .content-img-noticia {
+#noticias 
+.content-noticias .content-img-noticia {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border-bottom: 5px solid #356294;
     height: 230px;
     margin: auto;
     overflow: hidden;
@@ -522,6 +522,45 @@
     text-transform: uppercase;
     min-height: 55px;
 }
+
+#noticias{
+    margin-bottom: 50px;
+    h1{
+        color:$colorGrisTitlel; 
+        font-size: 30px;
+        font-weight: 300;
+        span{
+           color: $colorNaranja;
+           font-weight: bold;
+        }
+    }
+    .titutlo-noticia{
+        font-size: 15px;
+    }
+    .content-noticias a{
+        text-decoration: none;
+    }
+    .texto-noticia p{
+        text-align: justify;
+        font-size: 15px;
+        font-weight: 100;
+    }
+    .noticia a{
+        color: $colorNaranja;
+    .btn{
+        background-color: none;
+        border: 1px solid $colorNaranja;
+    }
+
+    .btn:hover{
+        background-color: $colorNaranja;
+        color:#fff;
+    }
+
+    }
+
+}
+
 
 #cards{
     .card{

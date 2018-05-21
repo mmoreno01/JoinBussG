@@ -607,9 +607,8 @@
               <!-- <img class="img-responsive" ng-src="{{x._embedded['wp:featuredmedia'][0].source_url}}"> -->
           </div>
               <a href="{{x.link}}"><p class="titutlo-noticia">{{x.title.rendered}}</p></a>
-              <hr>
               <p class="texto-noticia" ng-bind-html="x.excerpt.rendered | limitTo: 200"></p>
-              <a href="{{x.link}}" target="_blank"><label class="seeMore">VER MÁS</label></a>
+              <a href="{{x.link}}" target="_blank"><label class="seeMore btn">VER MÁS</label></a>
         </div>
       </div>
     </div>
