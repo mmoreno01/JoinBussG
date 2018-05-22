@@ -212,14 +212,8 @@
         </div>
         <div class="col-md-7 col-sm-12 content-mision  animated fadeIn">
 
-            <ul>
-                <li>Servicio de Ecxelencia</li>
-                <li>Profesionalismo</li>
-                <li>Trabajo en Equipo</li>
-                <li>Integridad</li>
-                <li>Innovación</li>
-            </ul>
-            <!--<div class=" sub-text animated fadeInRigth">
+            
+            <div class=" sub-text animated fadeInRigth">
                 
                         <span>Misión</span> 
                         <p>Ser un grupo multidisciplinario enfocado a la generación de negocios, rentabilidad y optimización de recursos para satisfacer las necesidades de nuestros socios y clientes, en nuestras Unidades de Negocios.</p>         
@@ -235,7 +229,7 @@
                         <span>Filosofia</span>
                             <p>Construyendo redes que conecten el mundo de los negocios.</p>         
               
-             </div>-->
+             </div>
 
         </div>
         
@@ -616,7 +610,7 @@
               <!-- <img class="img-responsive" ng-src="{{x._embedded['wp:featuredmedia'][0].source_url}}"> -->
           </div>
               <a href="{{x.link}}"><p class="titutlo-noticia">{{x.title.rendered}}</p></a>
-              <p class="texto-noticia" ng-bind-html="x.excerpt.rendered | limitTo: 200"></p>
+              <p class="texto-noticia" ng-bind-html="x.excerpt.rendered | limitTo: 100"></p>
               <a href="{{x.link}}" target="_blank"><label class="seeMore btn">VER MÁS</label></a>
         </div>
       </div>
