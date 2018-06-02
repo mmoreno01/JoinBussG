@@ -437,6 +437,24 @@
   #Cont-redeSociales h1 span {
     font-weight: 300;
     color: #7f8185; }
+#Cont-redeSociales .cont-icon {
+  width: 100%;
+  font-size: 30px;
+  padding: 0px 10px;
+  color: #fff;
+  background-color: #3b5998; }
+#Cont-redeSociales .cont-iconlink {
+  width: 100%;
+  font-size: 30px;
+  padding: 0px 10px;
+  color: #fff;
+  background-color: #0e76a8; }
+#Cont-redeSociales .cont-icontwt {
+  width: 100%;
+  font-size: 30px;
+  padding: 0px 10px;
+  color: #fff;
+  background-color: #1da1f2; }
 
 #content-link {
   width: 300px;
