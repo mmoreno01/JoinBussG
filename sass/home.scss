@@ -114,30 +114,46 @@
 
 //seccion de valores
 #content-valores{
+    margin: 100px 0px;
+
+    h1{
+        font-size: 30px;
+        color: $colorNaranja;
+        margin: 40px 0px;
+
+
+    }
     h2{
         font-size: 20px;
         font-weight: 300;
     }
-    h2:hover{
-        font-weight: bold;
+   
+    img{
+        width: 30;
+        display: block;
+        margin: 0 auto;
     }
-}
-.spoiler {
-	filter: blur(20px);
-	transition-property: -webkit-filter;
-	transition-duration: .4s;
-}
-.spoiler:hover, .spoiler:focus {
-	filter: blur(0px);
-}
 
-.hiden_elemt{
-    display: none;
-}
-.hiden_elemt:hover{
-    display: block;
+    .cont-text{
+        width: 150px;
+        background-color: #3b5998;
+        border-radius: 50%;
+        padding: 30px;
+        text-align: center;
+        p{
+            padding: 10px;
+        }
+    }
     
 }
+
+.modal h5{
+    color: $colorNaranja;
+    span{
+        color: $colorNaranja;
+    }
+}
+
 
 //seccion de evnetos
 #eventos{

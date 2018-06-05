@@ -79,25 +79,32 @@
   -webkit-animation-delay: 2.2s;
   box-sizing: border-box; }
 
-#content-valores h2 {
-  font-size: 20px;
-  font-weight: 300; }
-#content-valores h2:hover {
-  font-weight: bold; }
+#content-valores {
+  margin: 100px 0px; }
+  #content-valores h1 {
+    font-size: 30px;
+    color: #ff6633;
+    margin: 40px 0px; }
+  #content-valores h2 {
+    font-size: 20px;
+    font-weight: 300; }
+  #content-valores img {
+    width: 30;
+    display: block;
+    margin: 0 auto; }
+  #content-valores .cont-text {
+    width: 150px;
+    background-color: #3b5998;
+    border-radius: 50%;
+    padding: 30px;
+    text-align: center; }
+    #content-valores .cont-text p {
+      padding: 10px; }
 
-.spoiler {
-  filter: blur(20px);
-  transition-property: -webkit-filter;
-  transition-duration: .4s; }
-
-.spoiler:hover, .spoiler:focus {
-  filter: blur(0px); }
-
-.hiden_elemt {
-  display: none; }
-
-.hiden_elemt:hover {
-  display: block; }
+.modal h5 {
+  color: #ff6633; }
+  .modal h5 span {
+    color: #ff6633; }
 
 #eventos h1 {
   color: #ff6633;
