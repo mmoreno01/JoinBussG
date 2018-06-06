@@ -132,6 +132,13 @@
         width: 30;
         display: block;
         margin: 0 auto;
+        cursor: pointer;
+    }
+
+    img:hover{
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1); 
     }
 
     .cont-text{
@@ -153,6 +160,8 @@
         color: $colorNaranja;
     }
 }
+
+
 
 
 //seccion de evnetos

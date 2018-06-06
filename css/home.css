@@ -91,7 +91,12 @@
   #content-valores img {
     width: 30;
     display: block;
-    margin: 0 auto; }
+    margin: 0 auto;
+    cursor: pointer; }
+  #content-valores img:hover {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); }
   #content-valores .cont-text {
     width: 150px;
     background-color: #3b5998;
