@@ -129,7 +129,7 @@
     }
    
     img{
-        width: 30;
+        width: 100%;
         display: block;
         margin: 0 auto;
         cursor: pointer;
@@ -166,9 +166,11 @@
 
 //seccion de evnetos
 #eventos{
+    margin-top: 100px;
     h1{
         color: $colorNaranja;
         font-size: 30px;
+        padding: 30px 0px;
     }
 }
 //fin de seccion de eventos
@@ -284,6 +286,7 @@
 }
 
 #quienSomos{
+    margin-top: 100px;
     h2{
         color: $colorNaranja;
     }
@@ -581,6 +584,8 @@
         color:$colorGrisTitlel; 
         font-size: 30px;
         font-weight: 300;
+        margin-top: 100px;
+        padding: 30px 0px;
         span{
            color: $colorNaranja;
            font-weight: bold;
@@ -652,6 +657,7 @@
 //estilo de banner de cotizacion
 #cotizador{
    background-color: $colorNaranja;
+   margin-top: 100px;
     p{
         color: #fff;
         font-size: 20px;
@@ -683,7 +689,7 @@
 //estilo de redes sociales
 
 #Cont-redeSociales{
-
+    margin-top: 100px;
     h1{
         font-weight: bold;
         color: $colorNaranja;
@@ -762,6 +768,9 @@
 
 // estilo de contacto
 #contacto{
+
+    margin-top: 100px;
+
     .form-control:focus{
         border: 1px solid $colorNaranja;
         box-shadow: 0 0 0 0.2px $colorNaranja;
@@ -791,11 +800,17 @@
 }
 
 
-#alianza h1 {
-    font-weight: 300; 
-    font-size: 30px;
-    color: $colorGrisTitlel;
+#alianza {
+     margin-top: 100px;
+    h1 {
+        font-weight: 300; 
+        font-size: 30px;
+        color: $colorGrisTitlel;
+        padding: 30px 0px;
+    }
 }
+
+
     #alianza h1 span {
       color: #ff6633;
       font-weight: bold; }
@@ -911,6 +926,10 @@
             
         }
     }
+    #content-valores img {
+        width: 70%;
+       
+    }
 }
 
 @media (max-width:576px) {
@@ -942,5 +961,39 @@
 #redes-sociales .logo-redes {
     margin: 0px 10px;
 }
+#content-valores img {
+    width: 50%;
+   
+}
+#contacto {
+    margin-top: 50px;
+}
+#Cont-redeSociales {
+    margin-top: 50px;
+}
+#alianza {
+    margin-top: 50px;
+}
+#eventos {
+    margin-top: 50px;
+}
+#cotizador {
+    margin-top: 50px;
+}
+#alianza h1 {
+    padding: 30px 10px;
 }
 
+#Cont-redeSociales h1 span {
+    padding: 0px 10px;
+}
+}
+
+.slick-dots{
+    display: none;
+}
+.slick-list .draggable{
+    li{
+        display: none;
+    }
+}
