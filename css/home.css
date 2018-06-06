@@ -66,18 +66,43 @@
   -webkit-animation-delay: 2s;
   margin-bottom: 10px;
   box-sizing: border-box;
-  padding: 10px 0px; }
+  padding: 10px 20px; }
+  #subContenido .con-color p {
+    color: #000;
+    font-weight: 500; }
 #subContenido .con-color2 {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
   -webkit-animation-delay: 2.3s;
   box-sizing: border-box;
-  padding: 20px 0px; }
+  padding: 10px 20px; }
 #subContenido .con-color1 {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
   -webkit-animation-delay: 2.2s;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding: 10px 20px; }
+  #subContenido .con-color1 p {
+    background-color: #ff6633;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  #subContenido .con-color1 span {
+    text-transform: capitalize;
+    font-weight: 100; }
+  #subContenido .con-color1 i {
+    font-size: 30px;
+    padding: 10px 0px; }
+    #subContenido .con-color1 i a {
+      font-weight: 100;
+      font-size: 20px; }
+  #subContenido .con-color1 .fa-facebook-square {
+    color: #3b5998; }
+  #subContenido .con-color1 .fa-twitter {
+    color: #1da1f2; }
+  #subContenido .con-color1 .fa-linkedin {
+    color: #0e76a8;
+    margin-bottom: 30px; }
 
 #content-valores {
   margin: 100px 0px; }
@@ -129,18 +154,22 @@
   -webkit-animation-delay: 2s;
   margin-bottom: 10px;
   box-sizing: border-box;
-  padding: 10px 0px; }
+  padding: 10px 20px; }
+  #ContService .con-color p {
+    color: #000;
+    font-weight: 500; }
 #ContService .con-color2 {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
   -webkit-animation-delay: 2.3s;
   box-sizing: border-box;
-  padding: 20px 0px; }
+  padding: 10px 20px; }
 #ContService .con-color1 {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
   -webkit-animation-delay: 2.2s;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding: 10px 20px; }
 
 #ContNotice h1 {
   color: #ff6633;
@@ -159,19 +188,24 @@
   -webkit-animation-delay: 2s;
   margin-bottom: 10px;
   box-sizing: border-box;
-  padding: 10px 0px; }
+  padding: 10px 20px; }
+  #ContNotice .con-color p {
+    color: #000;
+    font-weight: 500; }
 #ContNotice .con-color2 {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
   -webkit-animation-delay: 2.3s;
   box-sizing: border-box;
-  padding: 20px 0px; }
+  padding: 10px 20px; }
+  #ContNotice .con-color2 img {
+    padding: 10px 0px; }
 #ContNotice .con-color1 {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
   -webkit-animation-delay: 2.2s;
   box-sizing: border-box;
-  padding: 20px; }
+  padding: 10px 20px; }
 
 .shrink {
   width: 100%;
