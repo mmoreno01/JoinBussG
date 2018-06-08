@@ -213,9 +213,18 @@
     }
 
     img{
-        width: 200px;
+        width: 150px;
     }
-
+    ul{
+        padding: 0;
+        margin: 0;
+    }
+    li{
+        color: #000;
+        font-weight: 500;
+        text-align: justify;
+    }
+   
     .con-color{
         width: 100%;
          background-color:rgba($color: #fff, $alpha: .5);
@@ -227,6 +236,7 @@
             color: #000;
             font-weight: 500;
         }
+       
      }
      
      .con-color2{
@@ -235,7 +245,15 @@
          -webkit-animation-delay: 2.3s;
          box-sizing: border-box;
          padding: 10px 20px;
-     
+         .btn{
+            color: #fff;
+            background-color: #ff6633;
+            border: #ff6633;
+        }
+        p{
+            color: #000;
+            font-weight: 500;
+        }
      }
      
      .con-color1{
