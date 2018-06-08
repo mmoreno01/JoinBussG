@@ -4,6 +4,12 @@
   #img-pricipal img {
     width: 100%; }
 
+.cont-titleResp h1 {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(34, 34, 34, 0.5); }
+
 .content-img {
   position: relative;
   overflow: hidden; }
@@ -143,7 +149,8 @@
 #content-txt h1 {
   color: #ff6633;
   font-size: 30px;
-  font-weight: 300; }
+  font-weight: 300;
+  padding: 0px 20px; }
 #content-txt span {
   color: #7f8185; }
 #content-txt .text-left {
@@ -358,7 +365,19 @@
   #content-educacion ul {
     list-style: none; }
 
-@media screen and (max-width: 576px) {
+@media (max-width: 992px) {
+  #content-txt .text-left {
+    padding: 0px; }
+
+  #content-txt .img-right img {
+    width: 90%; } }
+@media (max-width: 768px) {
+  #content-txt .text-left {
+    padding: 0px 30px; }
+
+  #content-txt .img-right img {
+    width: 100%; } }
+@media (max-width: 576px) {
   #banner .cont-conectate span {
     font-size: 15px; }
 
@@ -404,7 +423,31 @@
   #promo-text h1 {
     font-size: 30px; }
   #promo-text p {
-    padding: 0px 20px; } }
+    padding: 0px 20px; }
+
+  #content-txt .text-left {
+    padding: 0px 30px; }
+
+  #content-txt .img-right img {
+    width: 90%; }
+
+  #img-pricipal .content-txt {
+    display: none; }
+
+  .content-1 {
+    display: none; }
+
+  .content-2 {
+    display: none; }
+
+  .content-3 {
+    display: none; }
+
+  .content-4 {
+    display: none; }
+
+  #content-txt h1 {
+    text-align: center; } }
 .modal-content {
   border: 1px solid rgba(255, 102, 51, 0.8); }
 

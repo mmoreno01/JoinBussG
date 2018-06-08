@@ -105,11 +105,13 @@
     margin-bottom: 30px; }
 
 #content-valores {
-  margin: 100px 0px; }
+  margin: 50px 0px; }
   #content-valores h1 {
     font-size: 30px;
     color: #ff6633;
-    margin: 40px 0px; }
+    margin: 40px 0px;
+    font-weight: bold;
+    text-transform: capitalize; }
   #content-valores h2 {
     font-size: 20px;
     font-weight: 300; }
@@ -141,7 +143,8 @@
   #eventos h1 {
     color: #ff6633;
     font-size: 30px;
-    padding: 30px 0px; }
+    padding: 30px 0px;
+    font-weight: bold; }
 
 #ContService h1 {
   color: #ff6633;
@@ -580,7 +583,8 @@
     box-shadow: 0 0 0 0.2px #ff6633; }
   #contacto h1 {
     color: #ff6633;
-    font-size: 30px; }
+    font-size: 30px;
+    font-weight: bold; }
   #contacto .btn {
     width: 100%;
     background: rgba(255, 102, 51, 0.8);

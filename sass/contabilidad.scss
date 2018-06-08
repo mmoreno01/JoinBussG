@@ -10,6 +10,18 @@
     
 }
 
+// titulo responsive
+.cont-titleResp{
+  
+    h1{
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        background-color:rgba(34, 34, 34, 0.5);
+
+    }
+}
+
 //efecto imagen prfincipal
 .content-img {
     position: relative;
@@ -189,6 +201,7 @@ li{
         color: $colorNaranja;
         font-size: 30px;
         font-weight: 300;
+        padding: 0px 20px;
     }
      span{
         color: $colorGrisTitlel;
@@ -522,7 +535,34 @@ p{
 
 //media queries
 
-@media screen and (max-width: 576px) {
+
+@media  (max-width: 992px) {
+    // contabilidad texto e imagen
+    #content-txt .text-left {
+      padding: 0px;
+  }
+  #content-txt .img-right img {
+      width: 90%;
+      
+  }
+
+}
+
+@media  (max-width: 768px) {
+    
+    // contabilidad texto e imagen
+    #content-txt .text-left {
+        padding: 0px 30px;
+    }
+    #content-txt .img-right img {
+        width: 100%;
+        
+    }
+}
+
+
+
+@media  (max-width: 576px) {
     #banner .cont-conectate span {
         
         font-size: 15px;
@@ -585,15 +625,47 @@ p{
             padding: 0px 20px; 
         }
     }
+// contabilidad texto e imagen
+    #content-txt .text-left {
+        padding: 0px 30px;
+    }
+    #content-txt .img-right img {
+        width: 90%;
+        
+    }
 
+    #img-pricipal
+    {
+        .content-txt{
+            display: none;
+        }
+        
+    }
+    .content-1 {
+        display: none;
+    }
+        .content-2{
+            display: none;
+        }
+        .content-3
+        {
+            display: none
+        }
+        .content-4{
+            display: none;
+        }
+//titulo 
+#content-txt h1 {
+    
+    text-align: center;
+}
 }
 
 
 
 
-@media screen and (max-width: 768px) {
 
-}
+
 
 
 // pop up servicios

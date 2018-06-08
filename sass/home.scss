@@ -145,12 +145,14 @@
 
 //seccion de valores
 #content-valores{
-    margin: 100px 0px;
+    margin: 50px 0px;
 
     h1{
         font-size: 30px;
         color: $colorNaranja;
         margin: 40px 0px;
+        font-weight: bold;
+        text-transform: capitalize;
 
 
     }
@@ -202,6 +204,7 @@
         color: $colorNaranja;
         font-size: 30px;
         padding: 30px 0px;
+        font-weight: bold;
     }
 }
 //fin de seccion de eventos
@@ -833,6 +836,7 @@
     h1{
         color: $colorNaranja;
         font-size: 30px;
+        font-weight: bold;
     }
 
 .btn{
