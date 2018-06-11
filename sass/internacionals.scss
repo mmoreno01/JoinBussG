@@ -5,8 +5,10 @@
     h1{
         color: $colorNaranja;
         font-size: 30px;
+        font-weight: bold;
         span{
-            color: red;
+            color: $colorGrisTitlel;
+            font-weight: 100;
         }
     }
 
@@ -36,8 +38,6 @@
     }
     .cont-text{
         box-sizing: content-box;
-        background-color: teal;
-       height: 200px;
     }
 }
 

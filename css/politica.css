@@ -39,6 +39,7 @@
       color: #ff6633;
       font-weight: bold; }
   #logos-seg img {
+    width: 50%;
     display: block;
     margin: 0 auto; }
   #logos-seg p {
