@@ -74,3 +74,19 @@
        font-size: 20px;
    }
 }
+
+//media queries
+
+@media (max-width:768px) {
+    #logos-seg img {
+        width: 30%;
+        
+    }
+}
+
+@media (max-width:576px) {
+    #logos-seg img {
+        width: 30%;
+        
+    }
+}

@@ -49,4 +49,11 @@
     color: #ff6633;
     font-size: 20px; }
 
+@media (max-width: 768px) {
+  #logos-seg img {
+    width: 30%; } }
+@media (max-width: 576px) {
+  #logos-seg img {
+    width: 30%; } }
+
 /*# sourceMappingURL=politica.css.map */
