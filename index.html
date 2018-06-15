@@ -974,7 +974,7 @@
        
     <div class="row">
         <div class="col-md-6  content-form">
-                <form action="post" name="forma">
+                <form  method="POST" action=".php/datos_form.php" name="forma">
                
                         <div class="form-group">
                             <input class="form-control" type="text" name="name" ng-model="name" placeholder="Nombre" required>
@@ -997,15 +997,15 @@
                         </div>
                         <div class="form-group">
                                 <select class="form-control"  name="service" id="" ng-model="service" placeholder="Servicios">
-                                  <option>CONTABILIDAD</option>
-                                  <option>FISCAL</option>
-                                  <option>PAYROLL SERVICE</option>
-                                  <option>DIVISIÓN FINANCIERA</option>
-                                  <option>CAPITAL HUMANO</option>
-                                  <option value="">ESTACION DE SERVICIO</option>
-                                  <option value="">SOFOM</option>
-                                  <option value="">MAQUILA DE NOMINA</option>
-                                  <option value="">AUDITORIA</option>
+                                  <option value="contabilidad">CONTABILIDAD</option>
+                                  <option value="fiscal">FISCAL</option>
+                                  <option value="payroll">PAYROLL SERVICE</option>
+                                  <option value="division financiera">DIVISIÓN FINANCIERA</option>
+                                  <option value="capital humano">CAPITAL HUMANO</option>
+                                  <option value="estacion de servicio">ESTACION DE SERVICIO</option>
+                                  <option value="sofom">SOFOM</option>
+                                  <option value="maquila de nomina">MAQUILA DE NOMINA</option>
+                                  <option value="auditoria">AUDITORIA</option>
                                 </select>
                                 <div ng-show="forma.service.$dirty">
                                     <p class="help-block text-danger" ng-show="forma.service.$error.required">El campo servicios es obligatorio</p>
@@ -1015,7 +1015,7 @@
                             <textarea  class="form-control" name="mensaje" ng-model="mensaje" id="" cols="30" rows="3" placeholder="Escribe un mensaje aquí"></textarea>
                         </div>
                         <div class="form-group">
-                            <button class="btn" ng-disabled="forma.$invalid">Enviar</button>
+                            <button  type="submit" class="btn" ng-disabled="forma.$invalid">Enviar</button>
                         </div>
                         </form>
         </div>
